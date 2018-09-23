@@ -1,0 +1,60 @@
+    1  cd/User/Desktop
+    2  cd Desktop
+    3  ls -a
+    4* 
+    5  cd Data
+    6  ls -a
+    7  less gapminder.txt 
+    8  -n10 Data/gapminder.txt
+    9* c
+   10  cut -f1 gapminder.txt 
+   11  man wc
+   12  man Wc
+   13  wc --help
+   14  wc --cut
+   15  sort gapminder.txt
+   16  sort gapminder.txt
+   17  man sort
+   18  wc --sort
+   19  wc --help
+   20  cd gapminder.txt
+   21  cut -f1gapminder.txt>contrylist.txt
+   22  cut -f1/gapminder.txt>contrylist.txt
+   23  cut -f1 gapminder.txt>contrylist.txt
+   24  cat contrylist.txt 
+   25  wc contrylist-unique.txt
+   26  wc -- help
+   27  wc --help
+   28  cut -f1gapminder.txt>contrylist.txt
+   29  cut -f1/gapminder.txt|sort|uniqu|WC-l
+   30  cut -f1/gapminder.txt
+   31  cut -f1 gapminder.txt
+   32  cut -f1 gapminder.txt|sort|grep-vcountry
+   33  cut -f1 gapminder.txt|sort|grep-v country
+   34  cut -f1 gapminder.txt|sort
+   35  cut -f1 gapminder.txt|sort| grep -v country
+   36  cut -f1 gapminder.txt|sort| grep -v country| uniq| WC -l
+   37  cut -f1 gapminder.txt|sort| grep -v country| WC -l
+   38  man pipe
+   39  WC pipe
+   40* c
+   41  cat gapminder
+   42  cat gapminder.txt
+   43  cat gapminder.txt|grep 2002|cut -f1.4|sort
+   44* cat gapminder.txt|grep 2002|cut -f1,4|sort
+   45  cat gapminder.txt|head -n10 |grep 2002|cut -f1.4|sort
+   46  grep 2002 gapminder.txt | cut -f1.4|sort
+   47  grep 2002 gapminder.txt | cut -f1,4|sort
+   48  grep 2002 gapminder.txt | cut -f1,4|sort|head -n1
+   49  grep 2002 gapminder.txt | cut -f1,4| sort -f4 |head -n1
+   50  grep 2002 gapminder.txt | cut -f1,4| sort -k4 |head -n1
+   51  grep 2002 gapminder.txt | cut -f1,4| sort -k2 |head -n1
+   52  grep 2002 gapminder.txt | cut -f1,4| sort -k1 |head -n1
+   53  grep 2002 gapminder.txt | cut -f1,4| sort -k2 |head -n1
+   54  grep 2002 gapminder.txt | cut -f1,4| sort -k2 |tail -n1
+   55  grep 2002 gapminder.txt | cut -f1,4| sort -k1 |tail -n1
+   56  grep 2002 gapminder.txt | cut -f1,4| sort -k2 |tail -n1
+   57  grep 2002 gapminder.txt | cut -f1,4,5| sort -k3 |tail -n1
+   58  grep 2002 gapminder.txt | cut -f1,4| sort -k2 |head -n1
+   59  history
+   60  history > history.txt
